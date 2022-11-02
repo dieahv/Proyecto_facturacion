@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="css/js/objeto.js"></script>
+    <title>Formulario Factura</title>
+</head>
+<body>
+    <center>
+    <section class="form-register">
+        <p>CUFE</p>
+        <input class="controls" type="date" name="Fecha Emision" id="fecha_emision">
+        <select class="controls" name="forma_pago" id="Forma_pago">
+            <option value="N.A">TIPO DE PAGO</option>
+            <option value="contado">CONTADO</option>
+            <option value="credito">CREDITO</option>
+        </select>
+        <p>COMPRADOR</p>
+        <input class="controls" type="text" name="nombres" placeholder="Ingrese nombres" id="Nombres">
+        <input class="controls" type="text" name="apellidos" placeholder="Ingrese apellidos" id="Apellidos">
+        <input class="controls" type="text" name="documento" placeholder="Ingrese documento" id="Documento">
+        <input class="controls" type="text" name="depto" placeholder="Ingrese Departamento" id="Dpto">
+        <input class="controls" type="text" name="pais" placeholder="Ingrese País" id="Pais">
+        <input class="controls" type="text" name="municipio" placeholder="Ingrese Municipio" id="Municipio">
+        <input class="controls" type="text" name="telefono" placeholder="Ingrese Teléfono" id="Telefono">
+        <input class="controls" type="text" name="direccion" placeholder="Ingrese dirección" id="Direccion">
+        <input class="controls" type="text" name="contribuyente" placeholder="Tipo de Contribuyente" id="Contribuyente">
+        <input class="controls" type="email" name="correo" placeholder="Correo" id="Correo">
+        
+        <p>TRANSPORTE</p>
+        <select class="controls" name="embalaje" id="Embalaje">
+            <option value="N.A">TIPO DE EMBAJAJE</option>
+            <option value="caja">CAJA</option>
+            <option value="bolsa">BOLSA</option>
+        </select>
+        <input class="controls" type="text" name="cantidad" placeholder="Cantidad" id="Cantidad_emp">
+        <input class="controls" type="text" name="peso" placeholder="Peso" id="Peso">
+        <input class="controls" type="text" name="origen" placeholder="Origen" id="Origen">
+        <input class="controls" type="text" name="destino" placeholder="Destino" id="Destino">
+        <input class="controls" type="text" name="entrega" placeholder="Lugar de Entrega" id="Entrega">
+        <input class="controls" type="date" name="f_Entrega" placeholder="Fecha de Entrega" id="F_Entrega">
+        <p>PRODUCTO</p>
+        <input class="controls" type="text" name="num_prod" placeholder="Articulo #" id="Num_prod">
+        <input class="controls" type="text" name="guia" placeholder="Número de Guia" id="Guia">
+        <input class="controls" type="text" name="cantidad" placeholder="Cantidad" id="Cantidad">
+        <input class="controls" type="text" name="vr_unit" placeholder="Precio Unitario" id="Vr_unit">
+        <input class="controls" type="text" name="vr_asegurado" placeholder="Valor Asegurado" id="Vr_asegurado">
+        <input class="controls" type="text" name="vr_seguro" placeholder="Vr Seguro" id="Vr_seguro">
+        
+        
+        <input class="botons" type="button" onclick="factura()" value="Generar Factura">
+        
+        
+       
+        
+    </section>
+</center>
+
+</body>
+</html>
